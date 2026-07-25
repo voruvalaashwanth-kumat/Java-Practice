@@ -11,7 +11,7 @@ class BasicException{
             int c=a/b;
             System.out.println("the result is"+c);
         } catch(ArithmeticException e){
-            System.out.println("you cannot divide a number ny zero");
+            System.out.println("you cannot divide a number by zero"+e);
             
         }
 
